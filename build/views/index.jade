@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title='Women Who Code - Task Automation Demo'
+    include templates/head.jade
+  body
+    .wrap
+      include templates/header.jade
+      .main
+        .intro
+          h1.headline Task automation
+          h3.sub-headline Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed quis lorem lacus. Suspendisse eu tincidunt eros. Cras eleifend ante ex.
+          form.form(method='post' action='/')
+            input(class='form__input' name='email' type='email' placeholder='Enter your email' autofocus)
+            button(class="form__button button" type="submit") subscribe
+        .content
+          h1.headline The sexy battle
+          .battle
+            img.img.gulp(src='../images/gulp.png')
+            span.plus +
+            img.img.grunt(src='../images/grunt.png')
+      include templates/footer.jade
