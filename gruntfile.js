@@ -33,5 +33,7 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('');
   
   grunt.registerTask('default', '');
+  grunt.registerTask('compile', '');
+  grunt.registerTask('server', '');
   
 };
