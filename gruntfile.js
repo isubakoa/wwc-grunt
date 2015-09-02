@@ -3,19 +3,22 @@ module.exports = function(grunt){
     pkg:grunt.file.readJSON('package.json'),
     
     // CONFIGURATION =============================/
+    connect: {
+      
+    },
     jade: {
       
     },
     sass: {
       
     },
+    cssmin: {
+      
+    },
     coffee: {
       
     },
     uglify: {
-      
-    },
-    cssmin: {
       
     },
     jshint: {
