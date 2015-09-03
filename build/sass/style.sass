@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5, h6
 
 .headline
   text-transform: uppercase
+  @include transition(all 1s ease-in)
+  &.hover
+    color: red
 
 .sub-headline
   color: #808080
