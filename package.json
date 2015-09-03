@@ -1,19 +1,27 @@
 {
-  "name": "wwc",
-  "version": "0.0.1",
-  "description": "",
+  "name": "wwc-grunt",
+  "version": "1.0.0",
+  "description": "Basic Grunt setup, with the most useful plugins for rapid front end development",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatasuir9/wwc-grunt.git"
+  },
   "keywords": [
-    "wwc",
+    "wwckl",
     "event",
     "talk",
     "stage"
   ],
   "author": "Ghis B",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatasuir9/wwc-grunt/issues"
+  },
+  "homepage": "https://github.com/fatasuir9/wwc-grunt#readme",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-coffee": "^0.13.0",
