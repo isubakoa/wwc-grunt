@@ -15,12 +15,3 @@
 	-o-box-shadow: $shadow;
 	box-shadow: $shadow;
 }
-
-// CSS3 Transitions
-@mixin transition($vals) {
-  -webkit-transition: $vals;
-  -moz-transition: $vals;
-  -ms-transition: $vals;
-  -o-transition: $vals;
-  transition: $vals;
-}

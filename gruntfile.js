@@ -1,42 +1,62 @@
-module.exports = function(grunt){
+module.exports = function(grunt) {
+
   grunt.initConfig({
-    pkg:grunt.file.readJSON('package.json'),
-    
-    // CONFIGURATION =============================/
-    connect: {
-      
-    },
+    pkg: grunt.file.readJSON('package.json'),
+
+    // TASK & CONFIGURATION =============================/
+
+    //Convert Jade to Html
     jade: {
-      
+
     },
+
+    //Start server
+    connect: {
+
+    },
+
+    //Convert Sass to Css
     sass: {
-      
+
     },
+
+    //Minify Css
     cssmin: {
-      
+
     },
+
+    //Convert Coffeescript to Js
     coffee: {
-      
+
     },
-    uglify: {
-      
-    },
+
+    //Lint Js
     jshint: {
-      
+
     },
+
+    //Uglify Js
+    uglify: {
+
+    },
+
+    //Compress images
     image: {
-      
+
     },
+
+    //Supervise
     watch: {
-      
-    }
+
+    },
+
   });
-  
+
+  // COMBINED TASKS =========================/
+  grunt.registerTask('deploy',[]); //Deployment
+  grunt.registerTask('default',[]); //Default
+
   // DEPENDENT PLUGINS =========================/
-  grunt.loadNpmTasks('');
-  
-  grunt.registerTask('default', '');
-  grunt.registerTask('compile', '');
-  grunt.registerTask('server', '');
-  
+  //grunt.loadNpmTasks('');
+
 };

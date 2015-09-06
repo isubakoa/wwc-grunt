@@ -1,0 +1,8 @@
+# Ignore the completed Gruntfile
+gruntfile.complete.js
+
+# Ignore connect directory
+connect/*
+
+# Ignore grunt node modules directory
+node_modules/
