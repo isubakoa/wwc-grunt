@@ -1,6 +1,3 @@
-# Ignore the completed Gruntfile
-gruntfile.complete.js
-
 # Ignore connect directory
 connect/*
 
