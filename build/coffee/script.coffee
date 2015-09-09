@@ -1,2 +1,2 @@
-@logo = (param1) ->
+@logo = ->
   alert 'Hello, women Who Code KL'
