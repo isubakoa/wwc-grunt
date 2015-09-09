@@ -5,13 +5,13 @@ module.exports = function(grunt) {
 
     // TASK & CONFIGURATION =============================/
 
-    //Convert Jade to Html
-    jade: {
+    //Start server
+    connect: {
 
     },
 
-    //Start server
-    connect: {
+    //Convert Jade to Html
+    jade: {
 
     },
 
@@ -57,6 +57,6 @@ module.exports = function(grunt) {
   grunt.registerTask('default',[]); //Default
 
   // DEPENDENT PLUGINS =========================/
-  //grunt.loadNpmTasks('');
+  grunt.loadNpmTasks('');
 
 };
